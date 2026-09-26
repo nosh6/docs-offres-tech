@@ -19,38 +19,77 @@
       {
         "tab": "Accueil",
         "groups": [
-          { "group": "Commencer", "pages": ["index"] }
+          {
+            "group": "Commencer",
+            "pages": [
+              "index"
+            ]
+          }
         ]
       },
       {
         "tab": "Entreprises",
         "groups": [
-          { "group": "Votre fiche", "pages": ["entreprises/apercu"] }
+          {
+            "group": "Votre fiche",
+            "pages": [
+              "entreprises/apercu",
+              "entreprises/revendiquer-sa-fiche",
+              "entreprises/origine-des-offres",
+              "entreprises/outils-de-recrutement"
+            ]
+          }
         ]
       },
       {
         "tab": "Candidats",
         "groups": [
-          { "group": "Chercher et suivre", "pages": ["candidats/apercu"] }
+          {
+            "group": "Chercher et suivre",
+            "pages": [
+              "candidats/apercu",
+              "candidats/alertes-email",
+              "candidats/suivre-une-entreprise",
+              "candidats/espace-candidatures",
+              "candidats/compte-et-connexion"
+            ]
+          }
         ]
       },
       {
         "tab": "Méthode",
         "groups": [
-          { "group": "Comment le site est fait", "pages": ["methode/apercu"] }
+          {
+            "group": "Comment le site est fait",
+            "pages": [
+              "methode/apercu",
+              "methode/perimetre",
+              "methode/une-offre-plusieurs-sources",
+              "methode/ce-que-dit-l-annonce",
+              "methode/langues"
+            ]
+          }
         ]
       },
       {
         "tab": "Données",
         "groups": [
-          { "group": "Ce que le site sait de vous", "pages": ["donnees/apercu"] }
+          {
+            "group": "Ce que le site sait de vous",
+            "pages": [
+              "donnees/apercu"
+            ]
+          }
         ]
       }
     ]
   },
   "navbar": {
     "links": [
-      { "label": "Contact", "href": "mailto:contact@offres.tech" }
+      {
+        "label": "Contact",
+        "href": "mailto:contact@offres.tech"
+      }
     ],
     "primary": {
       "type": "button",
@@ -63,8 +102,14 @@
       {
         "header": "offres.tech",
         "items": [
-          { "label": "Les offres", "href": "https://offres.tech" },
-          { "label": "Les entreprises", "href": "https://offres.tech/editeurs" }
+          {
+            "label": "Les offres",
+            "href": "https://offres.tech"
+          },
+          {
+            "label": "Les entreprises",
+            "href": "https://offres.tech/editeurs"
+          }
         ]
       }
     ]

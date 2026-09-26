@@ -1,8 +1,31 @@
 ---
 title: "Aperçu"
-description: "Comment le catalogue est construit."
+description: "Comment le catalogue est construit : quelles entreprises, quelles offres, et ce que le site en lit."
 ---
 
-<Note>Page en cours de rédaction. Le contenu arrive avec le lot 2.</Note>
+offres.tech est un annuaire d'éditeurs de logiciels et de leurs offres. Quatre choix font le site.
 
-Quelles entreprises entrent dans le périmètre et lesquelles restent dehors, comment une même offre publiée à plusieurs endroits n'apparaît qu'une fois, ce que le site lit dans une annonce, les langues servies.
+<CardGroup cols={2}>
+  <Card title="Le périmètre" icon="filter" href="/methode/perimetre">
+    Éditeurs de logiciels par défaut. ESN et employeurs non éditeurs à un clic.
+  </Card>
+  <Card title="Une offre, plusieurs sources" icon="clone" href="/methode/une-offre-plusieurs-sources">
+    Une annonce publiée à deux endroits apparaît une fois, avec ses deux liens.
+  </Card>
+  <Card title="Ce que dit l'annonce" icon="file-lines" href="/methode/ce-que-dit-l-annonce">
+    Séniorité, télétravail, langues, étapes : lus dans le texte, jamais devinés.
+  </Card>
+  <Card title="Les langues" icon="language" href="/methode/langues">
+    Cinq langues servies, deux maintenues.
+  </Card>
+</CardGroup>
+
+## D'où vient chaque chose
+
+| Ce que vous voyez | D'où ça vient | Rythme |
+|---|---|---|
+| Une offre | Le site carrières ou l'outil de recrutement de l'entreprise, ou l'Apec | Toutes les six heures |
+| « Ce que dit l'annonce » | Le texte de l'annonce, relu par un modèle de langage | Après chaque cycle |
+| La fiche entreprise | Registre des entreprises, Wikidata, cours de bourse, BODACC, index d'égalité professionnelle | Chaque semaine |
+| Les plans sociaux | Recensés à la main, une source citée par entrée | Au fil de l'eau |
+| Les salaires et les tendances | Les offres du périmètre par défaut, France | À chaque visite |
