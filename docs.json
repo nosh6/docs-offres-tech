@@ -1,0 +1,75 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "offres.tech",
+  "description": "Documentation d'offres.tech : les offres tech des entreprises qui font du logiciel, pour les candidats et pour les entreprises.",
+  "colors": {
+    "primary": "#2563eb",
+    "light": "#60a5fa",
+    "dark": "#1d4ed8"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://offres.tech"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Accueil",
+        "groups": [
+          { "group": "Commencer", "pages": ["index"] }
+        ]
+      },
+      {
+        "tab": "Entreprises",
+        "groups": [
+          { "group": "Votre fiche", "pages": ["entreprises/apercu"] }
+        ]
+      },
+      {
+        "tab": "Candidats",
+        "groups": [
+          { "group": "Chercher et suivre", "pages": ["candidats/apercu"] }
+        ]
+      },
+      {
+        "tab": "Méthode",
+        "groups": [
+          { "group": "Comment le site est fait", "pages": ["methode/apercu"] }
+        ]
+      },
+      {
+        "tab": "Données",
+        "groups": [
+          { "group": "Ce que le site sait de vous", "pages": ["donnees/apercu"] }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      { "label": "Contact", "href": "mailto:contact@offres.tech" }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Voir les offres",
+      "href": "https://offres.tech"
+    }
+  },
+  "footer": {
+    "links": [
+      {
+        "header": "offres.tech",
+        "items": [
+          { "label": "Les offres", "href": "https://offres.tech" },
+          { "label": "Les entreprises", "href": "https://offres.tech/editeurs" }
+        ]
+      }
+    ]
+  },
+  "seo": {
+    "indexing": "navigable"
+  }
+}
